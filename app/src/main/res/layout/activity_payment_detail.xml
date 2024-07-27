@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PaymentDetailActivity"
+    android:padding="16dp">
+
+    <!-- Back Button -->
+
+    <!-- Title -->
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/back_icon_description"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/payment_detail"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/backButton"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Personal Detail -->
+    <TextView
+        android:id="@+id/tvPersonalDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Detail"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name : Syarifah Nabila"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintTop_toBottomOf="@id/tvPersonalDetail"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Doctor Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/doctorCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvUserName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/ivDoctorImage"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/ic_doctor_image"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent" />
+
+            <TextView
+                android:id="@+id/tvDoctorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="Dr. Wanitha"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/ivDoctorImage"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/tvDoctorSpecialty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spesialis Anak"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="14sp"
+                app:layout_constraintTop_toBottomOf="@id/tvDoctorName"
+                app:layout_constraintStart_toEndOf="@id/ivDoctorImage"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Payment Details -->
+    <TextView
+        android:id="@+id/tvSessionFee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Session fee for 30 minutes"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/doctorCard"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvSessionFeeAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 30.000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/doctorCard"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvServiceFee"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Service fee"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSessionFee"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvServiceFeeAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 1.000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvSessionFeeAmount"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvDiscount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Discount"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvServiceFee"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvDiscountAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- Rp 5.000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvServiceFeeAmount"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvTotalPayment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Total Payment"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDiscount"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/tvTotalPaymentAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp 26.000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvDiscountAmount"
+        android:layout_marginTop="16dp" />
+
+    <!-- Promo Code Input -->
+    <EditText
+        android:id="@+id/etPromoCode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Add Code Promo"
+        android:background="@drawable/edittext_background"
+        android:padding="8dp"
+        app:layout_constraintTop_toBottomOf="@id/tvTotalPayment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnAddPromo"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp" />
+
+    <!-- Add Promo Button -->
+    <Button
+        android:id="@+id/btnAddPromo"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Add"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTotalPayment" />
+
+    <!-- Continue Payment Button -->
+    <Button
+        android:id="@+id/btnContinuePayment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Continue Payment"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

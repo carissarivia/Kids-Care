@@ -1,0 +1,190 @@
+<resources>
+    <string name="app_name">KidsCare</string>
+    <string name="logo_description">Logo of Kids Care</string>
+    <string name="family_image_description">Image of Family</string>
+    <string name="consult_image_description">Image of Consultation</string>
+    <string name="indicator_description">Indicator for pages</string>
+    <string name="bell_icon_description">Bell Icon for notifications</string>
+
+    <!-- Home Page Strings -->
+    <string name="search_hint">Search...</string>
+    <string name="consult">Consult</string>
+    <string name="health">Health</string>
+    <string name="food">Food</string>
+    <string name="school">School</string>
+    <string name="newborns">Newborns</string>
+    <string name="babies">Babies</string>
+    <string name="school_age">School Age</string>
+    <string name="categories">Categories</string>
+    <string name="see_all">See All</string>
+    <string name="for_you">For You</string>
+    <string name="consult_with_expert">Consult with Our Expert</string>
+    <string name="mental_health">Mental Health</string>
+    <string name="mental_health_description">Find tips for kids going through difficult times</string>
+    <string name="read_article">Read Article</string>
+    <string name="newbornsImage">Newborns Image</string>
+
+    <!-- Bottom Navigation Menu Strings -->
+    <string name="home">Home</string>
+    <string name="news">News</string>
+    <string name="messages">Messages</string>
+    <string name="profile">Profile</string>
+
+    <!-- Article Page Strings -->
+    <string name="search_article_hint">Search Article</string>
+    <string name="article_title">Article</string>
+    <string name="popular">Popular</string>
+    <string name="parenting">Parenting</string>
+    <string name="lifestyle">Lifestyle</string>
+    <string name="child_health">Child Health</string>
+    <string name="double_prohe_mpas">Double Prohe MPASI</string>
+    <string name="double_prohe_mpas_description">Double Prohe untuk MPASI dan Manfaatnya untuk Menaikkan Berat Badan Bayi</string>
+    <string name="makanan_pengganti_daging">Makanan Pengganti Daging</string>
+    <string name="makanan_pengganti_daging_description">6 Makanan yang Mengandung Zat Besi, Pengganti Daging Merah</string>
+    <string name="larangan_cuci_daging">Larangan Cuci Daging</string>
+    <string name="larangan_cuci_daging_description">Mengapa Cuci Daging Dilarang? Fakta dan Alasan di Balik Larangan Ini</string>
+    <string name="article_image_description">Article Image</string>
+
+    <!-- Messages Page Strings -->
+    <string name="message">Message</string>
+    <string name="forum">Forum</string>
+    <string name="active_now">Active Now</string>
+    <string name="dr_wanitha">Dr. Wanitha</string>
+    <string name="dr_upul">Dr. Upul</string>
+    <string name="worem_description">Worem consectetur adipiscing elit.</string>
+    <string name="user_image_description">User Image</string>
+    <string name="back_icon_description">Back Icon</string>
+
+    <!-- Profile Page Strings -->
+    <string name="profile_image_description">Profile Image</string>
+    <string name="joined_since">Joined since 2023</string>
+    <string name="history">History</string>
+    <string name="favorite">Favorite</string>
+    <string name="faq">FAQ</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Log Out</string>
+    <string name="arrow_right">Arrow Right</string>
+
+    <!-- Consult Page Strings -->
+    <string name="categories_consult">Categories</string>
+    <string name="general_doctor">Dokter Umum</string>
+    <string name="specialist_doctor">Spesialis Anak</string>
+    <string name="psychologist">Psikolog Klinis</string>
+    <string name="nutritionist">Ahli Gizi</string>
+    <string name="all_experts">All Experts</string>
+    <string name="consult_now">Consult Now!</string>
+
+    <!-- Example Expert Data -->
+    <string name="dr_roger">Dr. Roger</string>
+    <string name="specialist_child">Spesialis Anak</string>
+    <string name="general_practitioner">Dokter Umum</string>
+    <string name="price">Rp 30.000</string>
+    <string name="discount_price">Rp 50.000</string>
+    <string name="chat">Chat</string>
+    <string name="rating">5.0</string>
+
+    <!-- New Strings for Experts -->
+    <string name="expert_image_description">Expert Image</string>
+    <string name="favorite_icon_description">Favorite Icon</string>
+    <string name="star_icon_description">Star Icon</string>
+
+    <!-- Health Page Strings -->
+    <string name="health_image_description">Health Image</string>
+    <string name="popular_topics">Popular Topics</string>
+    <string name="fever">Fever</string>
+    <string name="cough">Cough</string>
+    <string name="mouth_ulcers">Mouth Ulcers</string>
+    <string name="worms">Worms</string>
+    <string name="a_z_reference">A-Z Reference</string>
+    <string name="aids">AIDS</string>
+    <string name="allergies_food">Allergied - Food</string>
+    <string name="anaemia">Anaemia</string>
+    <string name="bad_breath">Bad Breath</string>
+    <string name="bleeding_nose">Bleeding Nose</string>
+
+    <!-- Food Page Strings -->
+    <string name="foods">Foods</string>
+    <string name="healthy_kid_recipes">Healthy Kid Recipes</string>
+    <string name="filter_icon_description">Filter Icon</string>
+    <string name="recipe_image_description">Recipe Image</string>
+    <string name="healthy_kitchen">Healthy Kitchen</string>
+    <string name="baked_honey_mustard_chicken">Baked Honey Mustard Chicken</string>
+    <string name="recipe_ratings">500 ratings</string>
+    <string name="fruit_fillings">Fruit Fillings</string>
+    <string name="strawberry_pie_filling">Strawberry Pie Filling</string>
+    <string name="fruit_salad">Fruit Salad</string>
+    <string name="rate">Rate</string>
+    <string name="save">Save</string>
+
+    <!-- School Page Strings -->
+    <string name="search_school">Search School</string>
+    <string name="best_private_school">#1 Best Private School</string>
+    <string name="best_high_school">#1 Best High School in Amerika</string>
+    <string name="the_wheeler_school">The Wheeler School</string>
+    <string name="phillips_exeter_academy">Phillips Exeter Academy</string>
+    <string name="ratings">500 ratings</string>
+    <string name="address_1">218 Hope St, Providence, RI 02906</string>
+    <string name="address_2">20 Main St, Exeter, NH 03833</string>
+    <string name="search_icon_description">Search Icon</string>
+    <string name="school_image_description">School Image</string>
+
+    <!-- School Detail Page Strings -->
+    <string name="share">Share:</string>
+    <string name="share_icon_description">Share Icon</string>
+    <string name="overall_grade">Overall Grade</string>
+    <string name="overall_grade_description">Overall Grade from Niche.org about this school</string>
+    <string name="grade_academics">A+ Academics</string>
+    <string name="grade_teachers">A+ Teachers</string>
+    <string name="grade_diversity">A+ Diversity</string>
+    <string name="grade_activities">A+ Activities</string>
+    <string name="all_photos">All Photos</string>
+    <string name="photo_description">School Photo</string>
+    <string name="contact">Contact</string>
+    <string name="website">exeter.edu</string>
+    <string name="phone_number">(603) 772-3437</string>
+    <string name="address">20 MAIN STEXETER, NH 03833</string>
+    <string name="website_icon_description">Website Icon</string>
+    <string name="phone_icon_description">Phone Icon</string>
+    <string name="location_icon_description">Location Icon</string>
+
+    <!-- Newborns Detail Page Strings -->
+    <string name="newborn_image_description">Newborn Image</string>
+    <string name="age_0_3_months">0 - 3 Months</string>
+    <string name="behaviour">Behaviour</string>
+    <string name="behaviour_description">• Newborn behaviour includes making eye contact, crying and looking at or reaching for things.\n• When you respond to your baby’s behaviour, it builds your relationship and helps your baby learn and develop.\n• Looking after yourself is important. When you’re healthy and well, it’s good for you and your baby.\n• It’s OK to ask for help from family, friends and professionals like your GP or child and family health nurse.</string>
+    <string name="healthy_daily_care">Healthy And Daily Care</string>
+    <string name="healthy_daily_care_description">• Children’s medicines are designed for children’s bodies.\n• Ask your doctor or pharmacist about which medicines are right for your child.\n• Always check dosage instructions before giving medicine to your child.</string>
+
+    <!-- Payment Detail Strings -->
+    <string name="payment_detail">Payment Detail</string>
+    <string name="personal_detail">Personal Detail</string>
+    <string name="name_syarifah_nabila">Name : Syarifah Nabila</string>
+    <string name="doctor_image_description">Doctor Image</string>
+    <string name="session_fee_30_minutes">Session fee for 30 minutes</string>
+    <string name="service_fee">Service fee</string>
+    <string name="discount">Discount</string>
+    <string name="total_payment">Total Payment</string>
+    <string name="service_fee_amount">Rp 1.000</string>
+    <string name="discount_amount">- Rp 5.000</string>
+    <string name="total_payment_amount">Rp 26.000</string>
+    <string name="add_code_promo">Add Code Promo</string>
+    <string name="add">Add</string>
+    <string name="continue_payment">Continue Payment</string>
+
+    <!-- Method Payment Strings -->
+    <string name="method_payment">Method Payment</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="alfamart">Alfamart</string>
+    <string name="indomaret">Indomaret</string>
+    <string name="bank_transfer">Bank Transfer</string>
+    <string name="bca">Bank Central Asia</string>
+    <string name="bri">Bank BRI</string>
+    <string name="bni">Bank BNI</string>
+    <string name="other">Other</string>
+    <string name="dana">DANA</string>
+    <string name="payment">Payment</string>
+    <string name="expand">Expand</string>
+    <string name="password_visibility">Toggle password visibility</string>
+    ```
+
+</resources>

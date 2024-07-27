@@ -1,0 +1,51 @@
+package com.example.kidscare.activities
+
+import android.content.Intent
+import android.os.Bundle
+import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
+import com.example.kidscare.R
+import com.example.kidscare.databinding.ActivityHealthBinding
+
+class HealthActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityHealthBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = ActivityHealthBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        // Bottom Navigation
+        binding.bottomNavigationView.setOnNavigationItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.navigation_home -> {
+                    val intent = Intent(this, HomeActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.navigation_news -> {
+                    val intent = Intent(this, ArticleActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.navigation_messages -> {
+                    val intent = Intent(this, MessagesActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                R.id.navigation_profile -> {
+                    val intent = Intent(this, ProfileActivity::class.java)
+                    startActivity(intent)
+                    true
+                }
+                else -> false
+            }
+        }
+
+        // Back Button
+        binding.backButton.setOnClickListener {
+            finish()
+        }
+    }
+}

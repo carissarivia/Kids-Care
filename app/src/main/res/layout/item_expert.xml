@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Expert Image -->
+        <ImageView
+            android:id="@+id/expertImage"
+            android:layout_width="70dp"
+            android:layout_height="111dp"
+            android:contentDescription="@string/expert_image_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_doctor_image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Expert Name -->
+        <TextView
+            android:id="@+id/expertName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dr. Wanitha"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/expertImage" />
+
+        <!-- Expert Specialty -->
+        <TextView
+            android:id="@+id/expertSpecialty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spesialis Anak"
+            android:textSize="14sp"
+            android:textColor="@color/colorTextSecondary"
+            app:layout_constraintTop_toBottomOf="@id/expertName"
+            app:layout_constraintStart_toEndOf="@id/expertImage" />
+
+        <!-- Expert Rating -->
+        <LinearLayout
+            android:id="@+id/ratingLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/expertSpecialty"
+            app:layout_constraintStart_toEndOf="@id/expertImage"
+            android:layout_marginTop="4dp">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ic_star"
+                android:contentDescription="@string/star_icon_description"
+                android:layout_marginEnd="4dp" />
+
+            <TextView
+                android:id="@+id/expertRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5.0"
+                android:textSize="14sp"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <!-- Expert Price -->
+        <TextView
+            android:id="@+id/expertPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 30.000"
+            android:textSize="14sp"
+            android:textColor="@color/colorPrimary"
+            app:layout_constraintTop_toBottomOf="@id/ratingLayout"
+            app:layout_constraintStart_toEndOf="@id/expertImage"
+            android:layout_marginTop="8dp" />
+
+        <!-- Expert Discount Price -->
+        <TextView
+            android:id="@+id/expertDiscountPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp 50.000"
+            android:textSize="12sp"
+            android:textColor="@color/colorTextSecondary"
+            app:layout_constraintTop_toBottomOf="@id/expertPrice"
+            app:layout_constraintStart_toEndOf="@id/expertImage"
+            android:layout_marginTop="4dp" />
+
+        <!-- Chat Button -->
+        <Button
+            android:id="@+id/btnChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/chat"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Favorite Icon -->
+        <ImageView
+            android:id="@+id/favoriteIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="2dp"
+            android:contentDescription="@string/favorite_icon_description"
+            android:src="@drawable/ic_favorite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

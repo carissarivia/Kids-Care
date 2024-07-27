@@ -1,0 +1,13 @@
+<resources>
+    <color name="colorPrimary">#4484BF</color>
+    <color name="colorPrimaryDark">#0288D1</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorBackground">#E0F7FA</color>
+    <color name="colorBackground1">#FFFFFF</color>
+    <color name="colorTextPrimary">#2196F3</color>
+    <color name="colorTextSecondary">#757575</color>
+    <color name="colorSecondary">#FF018786</color>
+    <color name="colorSecondary1">#000000</color>
+    <color name="CS">#F2F2F2</color>
+    <!-- Tambahkan warna sekunder -->
+</resources>
